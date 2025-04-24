@@ -72,7 +72,7 @@ These SSDTs were generated with SSDTTime and adapted for a Rocket Lake setup.
 
 ## 🖼️ Screenshot
 
-![macOS Desktop](https://github.com/fabienmillet/Hackintosh-EFI-i5-11600K-RX5700XT/blob/main/screenshot.jpg?raw=true)
+![macOS Desktop](https://github.com/fabienmillet/Hackintosh-EFI-i5-11600K-RX5700XT/blob/main/screenshot.png?raw=true)
 
 ---
 
