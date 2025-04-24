@@ -81,6 +81,23 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
 
 ---
 
+## Benchmarks
+
+* [Geekbench 6.4](https://www.geekbench.com/)
+  * Un seul coeur: 1956
+  * Multi-Coeur: 8179
+  * OpenCL: 64987
+  * Metal: 108540
+* [Cinebench 2024.1.0](https://www.maxon.net/en/cinebench)
+  * Un seul coeur: 95
+  * Multi-Coeur: 614
+  * GPU: 3352
+* [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550) (Crucial P3)
+  * Lecture: 2944 MB/s
+  * Ecriture: 1811 MB/s
+
+---
+
 ## 📄 Remarques
 
 - N’oubliez pas de générer vos propres numéros de série avec GenSMBIOS
