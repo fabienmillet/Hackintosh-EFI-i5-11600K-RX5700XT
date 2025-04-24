@@ -71,7 +71,7 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
 
 ## 🖼️ Capture d’écran
 
-![macOS Desktop](https://github.com/fabienmillet/Hackintosh-EFI-i5-11600K-RX5700XT/blob/main/screenshot.jpg?raw=true)
+![macOS Desktop](https://github.com/fabienmillet/Hackintosh-EFI-i5-11600K-RX5700XT/blob/main/screenshot.png?raw=true)
 
 ---
 
