@@ -681,7 +681,7 @@
                 <key>ProcessorType</key>
                 <integer></integer>
                 <key>ROM</key>
-                <data>la</data>
+                <data></data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
