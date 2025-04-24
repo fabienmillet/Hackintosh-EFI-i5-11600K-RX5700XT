@@ -81,7 +81,7 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
 
 ---
 
-## Benchmarks
+## 🚀 Benchmarks
 
 * [Geekbench 6.4](https://www.geekbench.com/)
   * Un seul coeur: 1956
