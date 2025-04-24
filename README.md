@@ -82,7 +82,7 @@ None at the moment. Stable since switching from a faulty Fenvi HB-1200 to the T9
 
 ---
 
-## Benchmarks
+## 🚀 Benchmarks
 
 * [Geekbench 6.4](https://www.geekbench.com/)
   * Single Core: 1956
