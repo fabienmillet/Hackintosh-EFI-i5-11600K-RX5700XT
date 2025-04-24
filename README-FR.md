@@ -83,5 +83,6 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
 
 ## 📄 Remarques
 
+- N’oubliez pas de générer vos propres numéros de série avec GenSMBIOS
 - Testé avec OpenCore 1.0.4 + OpenCore Legacy Patcher (patch Wi-Fi uniquement)
 - Installation propre de macOS Sequoia 15.4.1
