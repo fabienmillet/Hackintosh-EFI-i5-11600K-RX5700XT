@@ -84,5 +84,6 @@ None at the moment. Stable since switching from a faulty Fenvi HB-1200 to the T9
 
 ## 📝 Notes
 
+- Don't forget to generate your own serial numbers using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
 - Built with OpenCore 1.0.4 and OpenCore Legacy Patcher (Wi-Fi patch only)
 - Clean install of macOS Sequoia 15.4.1
