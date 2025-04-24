@@ -82,6 +82,23 @@ None at the moment. Stable since switching from a faulty Fenvi HB-1200 to the T9
 
 ---
 
+## Benchmarks
+
+* [Geekbench 6.4](https://www.geekbench.com/)
+  * Single Core: 1956
+  * Multicore: 8179
+  * OpenCL: 64987
+  * Metal: 108540
+* [Cinebench 2024.1.0](https://www.maxon.net/en/cinebench)
+  * Single Core: 95
+  * Multicore: 614
+  * GPU: 3352
+* [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550) (Crucial P3)
+  * Read: 2944 MB/s
+  * Write: 1811 MB/s
+
+---
+
 ## 📝 Notes
 
 - Don't forget to generate your own serial numbers using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
