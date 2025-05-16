@@ -7,17 +7,51 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
   <style>
     html, body {
-      background-color: #f9f9f9;
+      background-color: #1e1b2e;
+      color: #e0e0e0;
+    }
+    .section {
+      padding-top: 2rem;
+    }
+    .title {
+      color: #ffffff;
+    }
+    .button.is-static {
+      background-color: #3c3a4f;
+      color: #bfbfbf;
+    }
+    .button.is-info {
+      background-color: #5a4be7;
+      border-color: transparent;
+    }
+    .button.is-primary {
+      background-color: #2be4dc;
+      border-color: transparent;
+      color: #1e1b2e;
     }
     pre {
-      background-color: #f0f0f0;
+      background-color: #2d2b3f;
       padding: 1rem;
       overflow-x: auto;
       border-radius: 6px;
+      color: #f8f8f2;
     }
     .markdown img {
       max-width: 100%;
       border-radius: 8px;
+    }
+    .content table {
+      background-color: transparent;
+      color: #e0e0e0;
+    }
+    .content th, .content td {
+      border-color: #444;
+    }
+    .content h2, .content h3, .content h4 {
+      color: #ffffff;
+    }
+    .content ul li::marker {
+      color: #2be4dc;
     }
   </style>
 </head>
@@ -33,7 +67,7 @@
         <div class="level-right">
           <div class="level-item">
             <div class="buttons has-addons">
-              <span class="button is-static is-light">Langue</span>
+              <span class="button is-static">Langue</span>
               <button class="button is-info" onclick="setLanguage('en')">EN</button>
               <button class="button is-primary" onclick="setLanguage('fr')">FR</button>
             </div>
