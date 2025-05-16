@@ -74,6 +74,27 @@
     .content ul li::marker {
       color: #2be4dc;
     }
+    .floating-download {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      background-color: #35324b;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .floating-download:hover {
+      background-color: #5a4be7;
+    }
     @media (max-width: 768px) {
       .is-flex.is-justify-content-space-between {
         flex-direction: column;
@@ -103,10 +124,13 @@
           </div>
         </div>
       </div>
-
       <div id="content" class="content markdown"></div>
     </div>
   </section>
+
+  <a href="https://github.com/fabienmillet/Hackintosh-EFI-i5-11600K-RX5700XT/releases/download/v1.0/EFI.zip" class="floating-download" title="Télécharger EFI" target="_blank">
+    <i class="fas fa-download"></i>
+  </a>
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
