@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hackintosh EFI – i5-11600K + RX 5700 XT</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+  <style>
+    html, body {
+      background-color: #f9f9f9;
+    }
+    pre {
+      background-color: #f0f0f0;
+      padding: 1rem;
+      overflow-x: auto;
+      border-radius: 6px;
+    }
+    .markdown img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <nav class="level">
+        <div class="level-left">
+          <div class="level-item">
+            <h1 id="title" class="title is-3"></h1>
+          </div>
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <div class="buttons has-addons">
+              <span class="button is-static is-light">Langue</span>
+              <button class="button is-info" onclick="setLanguage('en')">EN</button>
+              <button class="button is-primary" onclick="setLanguage('fr')">FR</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="content" class="content markdown"></div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    async function fetchMarkdown(lang) {
+      const file = lang === 'en' ? 'README.md' : 'README-FR.md';
+      const response = await fetch(file);
+      const text = await response.text();
+      return text.replace(/iMacPro1,1/g, 'iMacPro1\\,1');
+    }
+
+    async function setLanguage(lang) {
+      const raw = await fetchMarkdown(lang);
+      const title = raw.match(/^# (.*)/)?.[1] ?? "Hackintosh EFI";
+      const mdContent = raw.replace(/^# .*/m, "");
+      document.getElementById("title").innerText = title;
+      document.getElementById("content").innerHTML = marked.parse(mdContent);
+    }
+
+    setLanguage('en');
+  </script>
+</body>
+</html>
