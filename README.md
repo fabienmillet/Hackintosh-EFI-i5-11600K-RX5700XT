@@ -6,15 +6,15 @@ This repository contains a fully functional EFI folder for running **macOS Sequo
 
 ## 💻 Hardware Specifications
 
-| Component        | Model                            |
-|------------------|----------------------------------|
-| Motherboard      | ASUS PRIME B560M-A               |
-| CPU              | Intel Core i5-11600K (11th Gen)  |
-| GPU              | AMD Radeon RX 5700 XT            |
-| RAM              | 32GB DDR4 2666 MHz               |
-| SSD              | Crucial P3 500GB (CT500P3SSD8)   |
-| Wi-Fi/Bluetooth  | Fenvi T919 (BCM94360CD)          |
-| Ethernet         | Intel I219V-14                   |
+| Component        | Model                                       |
+|------------------|---------------------------------------------|
+| Motherboard      | ASUS PRIME B560M-A                          |
+| CPU              | Intel Core i5-11600K (11th Gen)             |
+| GPU              | AMD Radeon RX 5700 XT                       |
+| RAM              | 32GB DDR4 2666 MHz                          |
+| SSD              | WD Black SN850 500GB (WDS500G1XHE-00AFY0)   |
+| Wi-Fi/Bluetooth  | Fenvi T919 (BCM94360CD)                     |
+| Ethernet         | Intel I219V-14                              |
 
 > SMBIOS: `iMacPro1,1`  
 > OpenCore version: `1.0.4`
@@ -96,6 +96,12 @@ None at the moment. Stable since switching from a faulty Fenvi HB-1200 to the T9
 * [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550) (Crucial P3)
   * Read: 2944 MB/s
   * Write: 1811 MB/s
+
+---
+
+## 📤 Upgrades
+
+- `(16-05-2024)` **OS clone from the Crucial P3 to my WD Black SN850 (formerly windows) for better performance**
 
 ---
 
