@@ -6,15 +6,15 @@ Ce dépôt contient le dossier EFI pour faire fonctionner **macOS Sequoia 15.4.1
 
 ## 💻 Spécifications matérielles
 
-| Composant         | Modèle                           |
-|-------------------|----------------------------------|
-| Carte mère        | ASUS PRIME B560M-A               |
-| Processeur        | Intel Core i5-11600K (11ᵉ gén.)  |
-| Carte graphique   | AMD Radeon RX 5700 XT            |
-| RAM               | 32 Go DDR4 2666 MHz              |
-| SSD               | Crucial P3 500 Go (CT500P3SSD8)  |
-| Wi-Fi/Bluetooth   | Fenvi T919 (BCM94360CD)          |
-| Ethernet          | Intel I219V-14                   |
+| Composant         | Modèle                                     |
+|-------------------|--------------------------------------------|
+| Carte mère        | ASUS PRIME B560M-A                         |
+| Processeur        | Intel Core i5-11600K (11ᵉ gén.)            |
+| Carte graphique   | AMD Radeon RX 5700 XT                      |
+| RAM               | 32 Go DDR4 2666 MHz                        |
+| SSD              | WD Black SN850 500GB (WDS500G1XHE-00AFY0)   |
+| Wi-Fi/Bluetooth   | Fenvi T919 (BCM94360CD)                    |
+| Ethernet          | Intel I219V-14                             |
 
 > SMBIOS : `iMacPro1,1`  
 > OpenCore : `1.0.4`
@@ -95,6 +95,12 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
 * [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550) (Crucial P3)
   * Lecture: 2944 MB/s
   * Ecriture: 1811 MB/s
+
+---
+
+## 📤 Mises à jour
+
+- `(16-05-2024)` **Clone de l'OS du Crucial P3 vers mon WD Black SN850 (anciennement windows) pour permettre plus de performance**
 
 ---
 
