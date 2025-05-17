@@ -92,9 +92,9 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
   * Un seul coeur: 95
   * Multi-Coeur: 614
   * GPU: 3352
-* [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550) (Crucial P3)
-  * Lecture: 2944 MB/s
-  * Ecriture: 1811 MB/s
+* [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550) (WD Black SN850)
+  * Lecture: 5598 MB/s
+  * Ecriture: 4264 MB/s
 
 ---
 
