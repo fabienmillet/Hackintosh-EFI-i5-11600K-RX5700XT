@@ -1,6 +1,6 @@
-# Hackintosh EFI – i5-11600K + RX 5700 XT + Fenvi T919 (macOS Sequoia 15.4.1)
+# Hackintosh EFI – i5-11600K + RX 5700 XT + Fenvi T919 (macOS Sequoia 15.5)
 
-Ce dépôt contient le dossier EFI pour faire fonctionner **macOS Sequoia 15.4.1** sur un Hackintosh basé sur un processeur Intel Rocket Lake, une carte graphique AMD et une carte Fenvi T919 pour le Wi-Fi/Bluetooth natif Broadcom.
+Ce dépôt contient le dossier EFI pour faire fonctionner **macOS Sequoia 15.5** sur un Hackintosh basé sur un processeur Intel Rocket Lake, une carte graphique AMD et une carte Fenvi T919 pour le Wi-Fi/Bluetooth natif Broadcom.
 
 ---
 
@@ -100,7 +100,7 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
 
 ## 📤 Mises à jour
 
-- `(16-05-2024)` **Clone de l'OS du Crucial P3 vers mon WD Black SN850 (anciennement windows) pour permettre plus de performance**
+- `(16-05-2024)` **Clone de l'OS du Crucial P3 vers mon WD Black SN850 (anciennement windows) pour permettre plus de performance** *(cela a en même temps mis à jour ma version de macos)*
 
 ---
 
@@ -108,4 +108,4 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
 
 - N’oubliez pas de générer vos propres numéros de série avec GenSMBIOS
 - Testé avec OpenCore 1.0.4 + OpenCore Legacy Patcher (patch Wi-Fi uniquement)
-- Installation propre de macOS Sequoia 15.4.1
+- Installation propre de macOS Sequoia 15.5
