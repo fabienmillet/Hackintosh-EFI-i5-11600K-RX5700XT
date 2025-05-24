@@ -1,0 +1,35 @@
+name: Create Draft Release on EFI Update
+
+on:
+  push:
+    paths:
+      - 'EFI/**'
+    branches:
+      - main
+
+jobs:
+  create_draft_release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get current date and time
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d_%H-%M-%S')" >> "$GITHUB_OUTPUT"
+
+      - name: Zip EFI folder
+        run: |
+          cd EFI
+          zip -r ../EFI.zip .
+      
+      - name: Create draft release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: efi-${{ steps.date.outputs.date }}
+          name: "EFI Update ${{ steps.date.outputs.date }}"
+          draft: true
+          files: EFI.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

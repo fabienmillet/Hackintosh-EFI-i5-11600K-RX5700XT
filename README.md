@@ -101,6 +101,7 @@ None at the moment. Stable since switching from a faulty Fenvi HB-1200 to the T9
 
 ## 📤 Upgrades
 
+- `(24-05-2024)` **Add OpenLinuxBoot.efi to enable multi-boot booting on Linux**
 - `(16-05-2024)` **OS clone from the Crucial P3 to my WD Black SN850 (formerly windows) for better performance** *(it also updated my macos version)*
 
 ---
