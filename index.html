@@ -128,14 +128,14 @@
     </div>
   </section>
 
-  <a href="https://github.com/fabienmillet/Hackintosh-EFI-i5-11600K-RX5700XT/releases/download/v1.0/EFI.zip" class="floating-download" title="Télécharger EFI" target="_blank">
+  <a href="https://github.com/fabienmillet/Hackintosh-EFI-i5-11600K-RX5700XT/releases/download/v1.0.1/EFI.zip" class="floating-download" title="Télécharger EFI" target="_blank">
     <i class="fas fa-download"></i>
   </a>
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     async function fetchMarkdown(lang) {
-      const file = lang === 'en' ? 'README.md' : 'README-FR.md';
+      const file = lang === 'en' ? 'https://raw.githubusercontent.com/fabienmillet/Hackintosh-EFI-i5-11600K-RX5700XT/refs/heads/main/README.md' : 'https://raw.githubusercontent.com/fabienmillet/Hackintosh-EFI-i5-11600K-RX5700XT/refs/heads/main/README-FR.md';
       const response = await fetch(file);
       const text = await response.text();
       return text.replace(/iMacPro1,1/g, 'iMacPro1\\,1');
