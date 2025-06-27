@@ -100,8 +100,8 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
 
 ## 📤 Mises à jour
 
-- `(24-05-2024)` **Ajout de OpenLinuxBoot.efi pour permettre de boot sur Linux en multi-boot**
-- `(16-05-2024)` **Clone de l'OS du Crucial P3 vers mon WD Black SN850 (anciennement windows) pour permettre plus de performance** *(cela a en même temps mis à jour ma version de macos)*
+- `(24-05-2025)` **Ajout de OpenLinuxBoot.efi pour permettre de boot sur Linux en multi-boot**
+- `(16-05-2025)` **Clone de l'OS du Crucial P3 vers mon WD Black SN850 (anciennement windows) pour permettre plus de performance** *(cela a en même temps mis à jour ma version de macos)*
 
 ---
 
