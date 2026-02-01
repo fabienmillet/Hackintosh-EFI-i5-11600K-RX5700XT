@@ -1,6 +1,6 @@
-# Hackintosh EFI – i5-11600K + RX 5700 XT + Fenvi T919 (macOS Sequoia 15.5)
+# Hackintosh EFI – i5-11600K + RX 5700 XT + Fenvi T919 (macOS Tahoe 26.2)
 
-This repository contains a fully functional EFI folder for running **macOS Sequoia 15.5** on a Hackintosh system based on an Intel Rocket Lake CPU, AMD GPU, and native Broadcom Wi-Fi/Bluetooth support using a Fenvi T919 card.
+This repository contains a fully functional EFI folder for running **macOS Tahoe 26.2** on a Hackintosh system based on an Intel Rocket Lake CPU, AMD GPU, and native Broadcom Wi-Fi/Bluetooth support using a Fenvi T919 card.
 
 ---
 
@@ -16,8 +16,8 @@ This repository contains a fully functional EFI folder for running **macOS Sequo
 | Wi-Fi/Bluetooth  | Fenvi T919 (BCM94360CD)                     |
 | Ethernet         | Intel I219V-14                              |
 
-> SMBIOS: `iMacPro1,1`  
-> OpenCore version: `1.0.4`
+> SMBIOS: `MacPro7,1`  
+> OpenCore version: `1.0.6`
 
 ---
 
@@ -65,7 +65,7 @@ These SSDTs were generated with SSDTTime and adapted for a Rocket Lake setup.
 ## ⚙️ Boot Arguments
 
 ```
--v debug=0x100 keepsyms=1 agdpmod=pikera npci=0x2000 wegtree=1
+debug=0x100 keepsyms=1 -amfipassbeta
 ```
 
 ---
@@ -101,6 +101,7 @@ None at the moment. Stable since switching from a faulty Fenvi HB-1200 to the T9
 
 ## 📤 Upgrades
 
+- `(01-02-2026)` **Updated to macOS Tahoe 26.2**
 - `(24-05-2025)` **Add OpenLinuxBoot.efi to enable multi-boot booting on Linux**
 - `(16-05-2025)` **OS clone from the Crucial P3 to my WD Black SN850 (formerly windows) for better performance** *(it also updated my macos version)*
 
@@ -109,5 +110,5 @@ None at the moment. Stable since switching from a faulty Fenvi HB-1200 to the T9
 ## 📝 Notes
 
 - Don't forget to generate your own serial numbers using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
-- Built with OpenCore 1.0.4 and OpenCore Legacy Patcher (Wi-Fi patch only)
-- Clean install of macOS Sequoia 15.5
+- Built with OpenCore 1.0.6 and OpenCore Legacy Patcher (Wi-Fi patch only)
+- Clean install of macOS Tahoe 26.2

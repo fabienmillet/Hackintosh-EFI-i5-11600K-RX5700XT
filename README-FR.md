@@ -1,6 +1,6 @@
-# Hackintosh EFI – i5-11600K + RX 5700 XT + Fenvi T919 (macOS Sequoia 15.5)
+# Hackintosh EFI – i5-11600K + RX 5700 XT + Fenvi T919 (macOS Tahoe 26.2)
 
-Ce dépôt contient le dossier EFI pour faire fonctionner **macOS Sequoia 15.5** sur un Hackintosh basé sur un processeur Intel Rocket Lake, une carte graphique AMD et une carte Fenvi T919 pour le Wi-Fi/Bluetooth natif Broadcom.
+Ce dépôt contient le dossier EFI pour faire fonctionner **macOS Tahoe 26.2** sur un Hackintosh basé sur un processeur Intel Rocket Lake, une carte graphique AMD et une carte Fenvi T919 pour le Wi-Fi/Bluetooth natif Broadcom.
 
 ---
 
@@ -17,7 +17,7 @@ Ce dépôt contient le dossier EFI pour faire fonctionner **macOS Sequoia 15.5**
 | Ethernet          | Intel I219V-14                             |
 
 > SMBIOS : `iMacPro1,1`  
-> OpenCore : `1.0.4`
+> OpenCore : `1.0.6`
 
 ---
 
@@ -64,7 +64,7 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
 ## ⚙️ Arguments de démarrage (boot-args)
 
 ```
--v debug=0x100 keepsyms=1 agdpmod=pikera npci=0x2000 wegtree=1
+debug=0x100 keepsyms=1 -amfipassbeta
 ```
 
 ---
@@ -77,6 +77,7 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
 
 ## ⚠️ Problèmes connus
 
+- Patch OCLP sur 26.2
 - Aucun pour l’instant. Système stable depuis le passage de la HB-1200 (défectueuse) à la T919.
 
 ---
@@ -100,6 +101,7 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
 
 ## 📤 Mises à jour
 
+- `(01-02-2026)` **Mise à jour vers macOS Tahoe 26.2**
 - `(24-05-2025)` **Ajout de OpenLinuxBoot.efi pour permettre de boot sur Linux en multi-boot**
 - `(16-05-2025)` **Clone de l'OS du Crucial P3 vers mon WD Black SN850 (anciennement windows) pour permettre plus de performance** *(cela a en même temps mis à jour ma version de macos)*
 
@@ -108,5 +110,5 @@ Générés avec SSDTTime et adaptés à un système Rocket Lake.
 ## 📄 Remarques
 
 - N’oubliez pas de générer vos propres numéros de série avec GenSMBIOS
-- Testé avec OpenCore 1.0.4 + OpenCore Legacy Patcher (patch Wi-Fi uniquement)
-- Installation propre de macOS Sequoia 15.5
+- Testé avec OpenCore 1.0.6 + OpenCore Legacy Patcher (patch Wi-Fi uniquement)
+- Installation propre de macOS Tahoe 26.2
