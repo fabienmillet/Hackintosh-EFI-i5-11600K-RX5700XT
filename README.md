@@ -78,7 +78,7 @@ debug=0x100 keepsyms=1 -amfipassbeta
 
 ## ⚠️ Known Issues
 
-Patch OCLP on 26.2,
+Patch OCLP on 26.2
 
 ---
 
