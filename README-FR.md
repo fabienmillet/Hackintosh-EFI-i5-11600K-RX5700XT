@@ -16,7 +16,7 @@ Ce dépôt contient le dossier EFI pour faire fonctionner **macOS Tahoe 26.2** s
 | Wi-Fi/Bluetooth   | Fenvi T919 (BCM94360CD)                    |
 | Ethernet          | Intel I219V-14                             |
 
-> SMBIOS : `iMacPro1,1`  
+> SMBIOS : `MacPro7,1`  
 > OpenCore : `1.0.6`
 
 ---
