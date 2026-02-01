@@ -78,7 +78,6 @@ debug=0x100 keepsyms=1 -amfipassbeta
 ## ⚠️ Problèmes connus
 
 - Patch OCLP sur 26.2
-- Aucun pour l’instant. Système stable depuis le passage de la HB-1200 (défectueuse) à la T919.
 
 ---
 
